@@ -1,0 +1,97 @@
+/* Estilo global para todos os elementos */
+* {
+    margin: 5px; /* Define uma margem de 5px para todos os elementos */
+    padding: 10px; /* Define um padding de 10px para todos os elementos */
+    box-sizing: border-box; /* Garante que padding e bordas sejam incluídos no cálculo do tamanho total dos elementos */
+}
+
+/* Estilo para o corpo da página */
+body {
+    background-color: rgb(164, 9, 236); /* Define a cor de fundo da página como um tom roxo */
+    display: flex; /* Define o layout flexbox para o corpo da página */
+    flex-direction: column; /* Organiza os itens no corpo da página em uma coluna */
+    align-items: center; /* Alinha os itens no centro horizontalmente */
+    justify-content: flex-start; /* Alinha os itens no topo (início) da tela */
+    min-height: 100vh; /* Garante que a altura mínima da página ocupe toda a altura da tela */
+    margin: 0; /* Remove as margens padrão do navegador */
+}
+
+/* Container que engloba os dois principais blocos */
+.container {
+    display: flex; /* Define o layout flexbox para o contêiner */
+    flex-direction: row; /* Organiza os itens dentro do contêiner em uma linha (horizontalmente) */
+    justify-content: center; /* Centraliza os itens dentro do contêiner */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    width: 100%; /* Define a largura do contêiner como 100% da largura da tela */
+    max-width: 1000px; /* Limita a largura máxima do contêiner a 1000px */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    gap: 20px; /* Define um espaço de 20px entre os itens dentro do contêiner */
+}
+
+/* Estilo para a segunda imagem (imagem2) */
+.imagem2 {
+    width: 100%; /* Define a largura da imagem para 100% do seu contêiner pai */
+    max-width: 380px; /* Limita a largura máxima da imagem a 380px */
+    height: auto; /* Mantém a altura proporcional à largura da imagem */
+    margin-left: 1%; /* Aplica uma margem à esquerda de -2%, movendo o elemento para a esquerda em relação à sua posição original */
+}
+
+/* Estilo para a caixa que contém o logo do Instagram */
+.caixa-instalogo {
+    background-color: white; /* Define a cor de fundo da caixa como branca */
+    width: 100%; /* Define a largura da caixa como 100% do seu contêiner pai */
+    max-width: 400px; /* Limita a largura máxima da caixa a 400px */
+    padding: 50px; /* Define um padding de 30px em todas as direções */
+    border: 3px solid black; /* Define uma borda de 1px de espessura e cor preta para a caixa */
+    border-radius: 15px; /* Arredonda os cantos da borda com um raio de 5px */
+    display: flex; /* Usa flexbox para o layout dentro da caixa */
+    flex-direction: column; /* Organiza os itens dentro da caixa em uma coluna */
+    justify-content: center; /* Centraliza os itens verticalmente dentro da caixa */
+    align-items: center; /* Alinha os itens horizontalmente no centro dentro da caixa */
+    text-align: center; /* Centraliza o texto dentro da caixa */
+}
+
+/* Estilo para o título do logo do Instagram */
+.caixa-instalogo h1 {
+    font-family: 'Pacifico', cursive; /* Define a fonte do título como 'Pacifico', uma fonte cursiva */
+    font-size: 55px; /* Define o tamanho da fonte do título como 55px */
+}
+
+/* Estilo para o botão */
+button {
+    margin-top: 10px; /* Define uma margem superior de 10px para o botão */
+    padding: 10px 20px; /* Define o padding do botão, com 10px de altura e 20px de largura */
+    background-color: #007bff; /* Define a cor de fundo do botão como azul */
+    color: white; /* Define a cor do texto do botão como branca */
+    border: none; /* Remove a borda padrão do botão */
+    border-radius: 5px; /* Arredonda os cantos do botão com um raio de 5px */
+    cursor: pointer; /* Altera o cursor para um ponteiro ao passar o mouse sobre o botão */
+}
+
+/* Estilo para o botão quando o mouse passa sobre ele */
+button:hover {
+    background-color: #0056b3; /* Muda a cor de fundo do botão para um tom mais escuro de azul quando o mouse está sobre ele */
+}
+
+/* Estilização para o rodapé */
+.rodape {
+    background-color: rgba(170, 0, 248, 0.336); /* Define a cor de fundo do rodapé como um tom de roxo com opacidade */
+    color: rgb(0, 0, 0); /* Define a cor do texto no rodapé como branca */
+    padding: 20px; /* Define o padding do rodapé como 20px */
+    text-align: center; /* Centraliza o texto no rodapé */
+    position: relative; /* Permite que o rodapé tenha um posicionamento relativo */
+    bottom: 0; /* Posiciona o rodapé no fundo da página */
+    width: 100%; /* Define a largura do rodapé como 100% da tela */
+    margin-top: auto; /* Empurra o rodapé para o fundo da página, ocupando o restante do espaço */
+}
+
+/* Estilo para os links no rodapé */
+.rodape a {
+    color: #ff0; /* Define a cor dos links no rodapé como amarela */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+/* Estilo para os links quando o mouse passa sobre eles */
+.rodape a:hover {
+    text-decoration: underline; /* Adiciona o sublinhado aos links quando o mouse passa sobre eles */
+}
